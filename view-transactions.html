@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View Transactions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo"><a href="home.html">Finance Manager</a></div>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="add-transaction.html">Add Transaction</a></li>
+      <li><a href="view-transactions.html" class="active">View Transactions</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2>Transactions</h2>
+    <div id="transactions-container"></div>
+    <div id="pagination-controls">
+      <button id="prev-btn" disabled>Previous</button>
+      <span id="current-page">Page: 1</span>
+      <button id="next-btn">Next</button>
+    </div>
+  </div>
+
+  <script src="scripts/view-transactions.js"></script>
+</body>
+</html>
